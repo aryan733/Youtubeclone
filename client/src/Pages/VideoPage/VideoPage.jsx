@@ -49,7 +49,8 @@ const handleViews=()=>{
     <div className='container2_VideoPage'>
         <div className='video_display_screen_VideoPage'>
           <video 
-           src={`http://localhost:5500/${vv.filepath}`}
+           src={`https://youtubeclone-9-84ct.onrender.com${vv.filepath}`}
+           //src={`http://localhost:5500/${vv.filepath}`}
            
            className={'video_ShowVideo_VideoPage'}
            controls
