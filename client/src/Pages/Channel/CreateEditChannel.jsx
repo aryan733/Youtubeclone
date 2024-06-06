@@ -5,12 +5,7 @@ import { login} from '../../api';
 import { updateChannelDate } from '../../actions/channelUser';
 
 function CreateEditChannel({setEditCreateChannelBtn}) {
-    // const CurrentUser = {
-    //     result:{
-    //       email:"aravindjatoth@gmail.com",
-    //       joinedOn:"222-07-15T09:57:23.4892",
-    //     },
-    //   };
+    
 
     const CurrentUser=useSelector((state)=>state.currentUserReducer)
 

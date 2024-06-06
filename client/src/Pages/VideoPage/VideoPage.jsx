@@ -50,7 +50,8 @@ const handleViews=()=>{
         <div className='video_display_screen_VideoPage'>
           <video 
           
-           src={`https://youtubeclone-13-trop.onrender.com${vv.filepath}`}
+           src={`http://localhost:5500/${vv.filepath}`}
+        
            
            className={'video_ShowVideo_VideoPage'}
            controls
