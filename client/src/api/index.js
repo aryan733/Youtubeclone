@@ -1,6 +1,6 @@
 import axios from 'axios'
-const API = axios.create({baseURL:"http://localhost:5500/"})
-//const API = axios.create({baseURL:"https://youtubeclone-76coypoqu-aryan733s-projects.vercel.app/"})
+//const API = axios.create({baseURL:"http://localhost:5500/"})
+const API = axios.create({baseURL:"https://youtubeclone-21.onrender.com/"})
 
 
 API.interceptors.request.use(req=>{

@@ -50,8 +50,8 @@ const handleViews=()=>{
         <div className='video_display_screen_VideoPage'>
           <video 
           
-           src={`http://localhost:5500/${vv.filepath}`}
-          //src={`https://youtubeclone-76coypoqu-aryan733s-projects.vercel.app/${vv.filepath}`}
+           //src={`http://localhost:5500/${vv.filepath}`}
+          src={`https://youtubeclone-21.onrender.com/${vv.filepath}`}
         
            
            className={'video_ShowVideo_VideoPage'}
