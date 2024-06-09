@@ -14,7 +14,7 @@ export const updateChannelData = (id, updateData) => async (dispatch) => {
     try {
         const { data } = await api.updateChannelData(id, updateData);
         dispatch({ type: 'UPDATE_DATA_SUCCESS', payload: data });
-        // Immediately fetch all channels after successful update
+     
         dispatch(fetchAllChannel());
     } catch (error) {
         console.log(error);
